@@ -13,7 +13,7 @@ int main()
      cout<<"Enter a Roll no - ";
      cin>>s1.roll_no;
      cout<<"Enter a name - ";
-     cin>>s1.name;
+     gets(s1.name);
 
      cout<<s1.roll_no<<endl;
      puts(s1.name);
