@@ -6,7 +6,8 @@ class employee
 {
      private:
      
-     long int No, Tel_no;
+     long int No;
+     double Tel_no;
      char Name[20], house_no[30], city[20];
 
      public:
